@@ -1,7 +1,8 @@
 use solana_program::{
     account_info::{AccountInfo, next_account_info},
     address_lookup_table::instruction,
-    entrypoint::{self, ProgramResult},
+    entrypoint::{ ProgramResult},
+    entrypoint,
     lamports,
     program::{invoke, invoke_signed},
     pubkey::Pubkey,
